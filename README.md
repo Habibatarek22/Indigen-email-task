@@ -1,5 +1,5 @@
 # Indigen-email-task
-email sending using frontend:react and backend:nodejs 
+Email sending using Frontend: React and Backend: Nodejs 
 ,Nodemailer: for sending emails
 ,Multer: for uploading files 
 ,Express: for backend framework for Node.js
