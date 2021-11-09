@@ -9,11 +9,11 @@
             
             <br>
             
-            <h1 class="text-center"><img src="http://localhost:5000/icon.JPG" alt="Smiley face" width="92" height="62" style="vertical-align:middle;margin:0px 20px">Indigen Middle-East </h1>
+            <h1 class="text-center"><img src="/img/icon.JPG" alt="Smiley face" width="92" height="62" style="vertical-align:middle;margin:0px 20px">Indigen Middle-East </h1>
         <br>
             <form autocomplete="off" action="/sendemail" method="POST" enctype="multipart/form-data">
             <div class="form-group">
-                <input class="form-control" type="email" name="to" required placeholder="Recipients" id="" >
+                <input class="form-control"  name="to"  placeholder="Recipients" id="" >
             </div>
             <div class="form-group">
                 <input class="form-control" type="text" name="subject" required placeholder="Subject" id="" >
@@ -23,7 +23,7 @@
             </div>
             <div class="form-group">
                 <label form="Attachement">Attachement</label>
-                <input class="form-control" type="file" multiple required id="">
+                <input class="form-control"  type="file"  name="image" required id="">
             </div>
             <div class="form-group">
                 <button class="btn btn-primary btn-lg btn-block"> Send Email</button>
